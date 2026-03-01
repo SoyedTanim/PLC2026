@@ -77,6 +77,7 @@ print("playlist1noAds = %s" % playlist1noAds)
 shortItemLenghts1 = "todo" # TASK 6.2-b -- replace "todo" by a list comprehension
 
 print("shortItemLenghts1 = %s" % shortItemLenghts1)
+shortItemLengths1 = [item.length_secs for item in playlist1 if item.length_secs < 20.0]
 
 # empty line
 print
